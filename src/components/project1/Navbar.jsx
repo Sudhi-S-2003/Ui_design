@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../assest/assets/real-estate-house.png'
+import icon from '../../assest/assets/real-estate-house.png'
 
 function Navbar() {
   return (

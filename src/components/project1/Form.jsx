@@ -1,5 +1,5 @@
 import React from 'react'
-import formimg from '../assest/assets/celeb.png'
+import formimg from '../../assest/assets/celeb.png'
 function Form() {
   return (
     <div className='block items-center justify-evenly sm:flex '>
