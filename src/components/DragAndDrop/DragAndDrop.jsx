@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Dropdown() {
+function DragAndDrop() {
   const initialList = [
     { name: "item1" },
     { name: "item2" },
@@ -68,4 +68,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default DragAndDrop;
