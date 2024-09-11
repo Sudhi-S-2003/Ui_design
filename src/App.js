@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 // import Password from './components/Password/Password'
 // import Typing from "./components/Typing/Typing";
 import LocationSearch from "./components/ReactGoogleMap/LocationSearch";
+import LeafletWithSearch from "./components/ReactGoogleMap/LeafletWithSearch;";
 // import DragAndDrop from './components/DragAndDrop/DragAndDrop.jsx'
 // import Header from './components/project2/Header'
 // import Navbar from './components/project2/Navbar'
@@ -59,7 +60,8 @@ function App() {
         speed={10}
         onComplete={() => setIsTypingComplete(true)}
       /> */}
-      <LocationSearch/>
+      {/* <LocationSearch/> */}
+      <LeafletWithSearch/>
     </div>
   );
 }
